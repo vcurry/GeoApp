@@ -1,0 +1,67 @@
+<paises>
+    <pais nombre="España" imagen="espana.png">
+        <region nombre="Galicia" imagen="galicia.png" xini="60" yini="600" x="375" y="171"/>
+        <region nombre="Asturias" imagen="asturias.png" xini="400" yini="600" x="434" y="179" />
+        <region nombre="Cantabria" imagen="cantabria.png" xini="930" yini="550"  x="496" y="182"/>
+        <region nombre="Pais Vasco" imagen="paisvasco.png" xini="160" yini="550"  x="534" y="184"/>
+        <region nombre="Navarra" imagen="navarra.png" xini="150" yini="280"  x="562" y="190"/>
+        <region nombre="Aragon" imagen="aragon.png" xini="50" yini="180"  x="574" y="203"/>
+        <region nombre="Rioja" imagen="rioja.png" xini="70" yini="330" x="545" y="214" />
+        <region nombre="Cataluña" imagen="cataluna.png" xini="615" yini="600" x="640" y="202"/>
+        <region nombre="Comunidad Valenciana" imagen="cvalenciana.png" xini="920" yini="120" x="594" y="282" />
+        <region nombre="Castilla La Mancha" imagen="cmancha.png" xini="40" yini="400" x="485" y="262"/>
+        <region nombre="Castilla Leon" imagen="cleon.png" xini="770" yini="590" x="437" y="193"/>
+        <region nombre="Extremadura" imagen="extremadura.png" xini="850" yini="240" x="424" y="294"/>
+        <region nombre="Madrid" imagen="madrid.png" xini="405" yini="650" x="508" y="270"/>
+        <region nombre="Murcia" imagen="murcia.png" xini="930" yini="350" x="574" y="357"/>
+        <region nombre="Andalucia" imagen="andalucia.png" xini="180" yini="600" x="422" y="359"/>
+        <region nombre="Islas Baleares" imagen="ibaleares.png" xini="500" yini="600" x="679" y="297"/>
+        <region nombre="Islas Canarias" imagen="icanarias.png" xini="760" yini="460" x="271" y="434"/>
+        <region nombre="Ceuta" imagen="ceuta.png" xini="860" yini="440" x="484" y="465"/>
+        <region nombre="Melilla" imagen="melilla.png" xini="90" yini="545" x="557" y="484"/>
+    </pais>
+    <pais nombre="Francia" imagen="francia.png">
+        <region nombre="Nord-Pas-de-Calais" imagen="calais.png" xini="60" yini="220" x="519" y="124"/>
+        <region nombre="Picardie" imagen="picardie.png" xini="850" yini="620" x="514" y="155"/>
+        <region nombre="Haute-Normandie" imagen="hnormandie.png" xini="60" yini="620" x="473" y="168"/>
+        <region nombre="Basse-Normandie" imagen="bnormandie.png" xini="500" yini="620" x="410" y="182"/>
+        <region nombre="Bretagne" imagen="bretagne.png" xini="850" yini="240" x="310" y="218"/>
+        <region nombre="Pays de la Loire" imagen="ploire.png" xini="850" yini="480" x="390" y="233"/>
+        <region nombre="Poitou-Charentes" imagen="poitou.png" xini="60" yini="300" x="422" y="294"/>
+        <region nombre="Aquitaine" imagen="aquitaine.png" xini="150" yini="610" x="415" y="356"/>
+        <region nombre="Midi-Pyrenees" imagen="mpyrenees.png" xini="850" yini="120" x="461" y="385"/>
+        <region nombre="Languedoc-Roussillon" imagen="languedoc.png" xini="730" yini="590" x="524" y="388"/>
+        <region nombre="Provence-Alpes-Cote d'Azur" imagen="provence.png" xini="60" yini="400" x="604" y="380"/>
+        <region nombre="Rhone-Alpes" imagen="ralpes.png" xini="60" yini="100" x="587" y="320"/>
+        <region nombre="Auvergne" imagen="auvergne.png" xini="180" yini="220" x="535" y="307"/>
+        <region nombre="Limousin" imagen="limousin.png" xini="240" yini="490" x="490" y="323"/>
+        <region nombre="Centre" imagen="centre.png" xini="790" yini="330" x="473" y="215"/>
+        <region nombre="Ile-de-France" imagen="ifrance.png" xini="290" yini="610" x="516" y="206"/>
+        <region nombre="Champagne-Ardenne" imagen="cardenne.png" xini="130" yini="490" x="577" y="164"/>
+        <region nombre="Bourgogne" imagen="bourgogne.png" xini="610" yini="600" x="560" y="238"/>
+        <region nombre="Franche-Comte" imagen="fcomte.png" xini="920" yini="330" x="636" y="255"/>
+        <region nombre="Lorraine" imagen="lorraine.png" xini="150" yini="370" x="624" y="188"/>
+        <region nombre="Alsace" imagen="alsace.png" xini="400" yini="620" x="687" y="211"/>
+        <region nombre="Corse" imagen="corse.png" xini="70" yini="520" x="687" y="472" />
+    </pais>
+    <pais nombre="Portugal" imagen="portugal.png">
+        <region nombre="Lisboa" imagen="lisboa.png" xini="900" yini="645" x="399" y="353"/>
+        <region nombre="Leiria" imagen="leiria.png" xini="60" yini="620" x="408" y="283"/>
+        <region nombre="Santarém" imagen="santarem.png" xini="860" yini="295" x="437" y="306"/>
+        <region nombre="Setúbal" imagen="setubal.png" xini="850" yini="480" x="416" y="398"/>
+        <region nombre="Beja" imagen="beja.png" xini="50" yini="260" x="449" y="445"/>
+        <region nombre="Faro" imagen="faro.png" xini="210" yini="640" x="436" y="519"/>
+        <region nombre="Évora" imagen="evora.png" xini="850" yini="120" x="462" y="381"/>
+        <region nombre="Portalegre" imagen="portalegre.png" xini="720" yini="620" x="485" y="322"/>
+        <region nombre="Castelo Branco" imagen="cbranco.png" xini="60" yini="400" x="488" y="251"/>
+        <region nombre="Guarda" imagen="guarda.png" xini="60" yini="100" x="521" y="179"/>
+        <region nombre="Coimbra" imagen="coimbra.png" xini="710" yini="290" x="444" y="242"/>
+        <region nombre="Aveiro" imagen="aveiro.png" xini="730" yini="153" x="453" y="191"/>
+        <region nombre="Viseu" imagen="viseu.png" xini="700" yini="450" x="484" y="176"/>
+        <region nombre="Braganza" imagen="braganza.png" xini="210" yini="480" x="551" y="106"/>
+        <region nombre="Vila Real" imagen="vreal.png" xini="400" yini="620" x="502" y="113"/>
+        <region nombre="Oporto" imagen="oporto.png" xini="70" yini="520" x="453" y="156"/>
+        <region nombre="Braga" imagen="braga.png" xini="230" yini="340" x="452" y="124"/>
+        <region nombre="Viana do Castelo" imagen="vcastelo.png" xini="590" yini="637" x="447" y="93"/>
+    </pais>
+</paises>

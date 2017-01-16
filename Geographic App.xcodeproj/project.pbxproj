@@ -1,0 +1,820 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E308C8A5186E2E5E0077A42C /* andalucia.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C892186E2E5E0077A42C /* andalucia.png */; };
+		E308C8A6186E2E5E0077A42C /* aragon.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C893186E2E5E0077A42C /* aragon.png */; };
+		E308C8A7186E2E5E0077A42C /* asturias.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C894186E2E5E0077A42C /* asturias.png */; };
+		E308C8A8186E2E5E0077A42C /* cantabria.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C895186E2E5E0077A42C /* cantabria.png */; };
+		E308C8A9186E2E5E0077A42C /* cataluna.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C896186E2E5E0077A42C /* cataluna.png */; };
+		E308C8AA186E2E5E0077A42C /* ceuta.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C897186E2E5E0077A42C /* ceuta.png */; };
+		E308C8AF186E2E5E0077A42C /* galicia.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C89C186E2E5E0077A42C /* galicia.png */; };
+		E308C8B0186E2E5E0077A42C /* ibaleares.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C89D186E2E5E0077A42C /* ibaleares.png */; };
+		E308C8B1186E2E5E0077A42C /* icanarias.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C89E186E2E5E0077A42C /* icanarias.png */; };
+		E308C8B2186E2E5E0077A42C /* madrid.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C89F186E2E5E0077A42C /* madrid.png */; };
+		E308C8B3186E2E5E0077A42C /* mellila.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8A0186E2E5E0077A42C /* mellila.png */; };
+		E308C8B5186E2E5E0077A42C /* navarra.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8A2186E2E5E0077A42C /* navarra.png */; };
+		E308C8B7186E2E5E0077A42C /* rioja.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8A4186E2E5E0077A42C /* rioja.png */; };
+		E308C8BA186E30F30077A42C /* cmancha.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8B8186E30F30077A42C /* cmancha.png */; };
+		E308C8BF186E31E60077A42C /* cvalenciana.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8BE186E31E60077A42C /* cvalenciana.png */; };
+		E308C8C1186E33720077A42C /* extremadura.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8C0186E33720077A42C /* extremadura.png */; };
+		E308C8C3186E33810077A42C /* murcia.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8C2186E33810077A42C /* murcia.png */; };
+		E308C8C5186E372F0077A42C /* paisvasco.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8C4186E372F0077A42C /* paisvasco.png */; };
+		E308C8C7186E39040077A42C /* cleon.png in Resources */ = {isa = PBXBuildFile; fileRef = E308C8C6186E39040077A42C /* cleon.png */; };
+		E324F0FA18127B81007E12EB /* VCJugador.m in Sources */ = {isa = PBXBuildFile; fileRef = E324F0F918127B81007E12EB /* VCJugador.m */; };
+		E324F0FD18127BDD007E12EB /* VCPuntuacion.m in Sources */ = {isa = PBXBuildFile; fileRef = E324F0FC18127BDD007E12EB /* VCPuntuacion.m */; };
+		E324F10018127C8A007E12EB /* VCRanking.m in Sources */ = {isa = PBXBuildFile; fileRef = E324F0FF18127C89007E12EB /* VCRanking.m */; };
+		E324F10318128134007E12EB /* VCJuego.m in Sources */ = {isa = PBXBuildFile; fileRef = E324F10218128134007E12EB /* VCJuego.m */; };
+		E324F10518128E10007E12EB /* datospaises.xml in Resources */ = {isa = PBXBuildFile; fileRef = E324F10418128E10007E12EB /* datospaises.xml */; };
+		E325F1DA186ECE8600442D9F /* geoapp.gif in Resources */ = {isa = PBXBuildFile; fileRef = E325F1D9186ECE8600442D9F /* geoapp.gif */; };
+		E325F1DD186ED27300442D9F /* VCSplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E325F1DC186ED27300442D9F /* VCSplashViewController.m */; };
+		E325F1DE1878178B00442D9F /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E333107B182E416D003C0FC7 /* libsqlite3.dylib */; };
+		E333107C182E416E003C0FC7 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = E333107B182E416D003C0FC7 /* libsqlite3.dylib */; };
+		E33FBC4418299B7A00C6DACF /* alsace.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC2E18299B7A00C6DACF /* alsace.png */; };
+		E33FBC4518299B7A00C6DACF /* aquitaine.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC2F18299B7A00C6DACF /* aquitaine.png */; };
+		E33FBC4618299B7A00C6DACF /* auvergne.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3018299B7A00C6DACF /* auvergne.png */; };
+		E33FBC4718299B7A00C6DACF /* bnormandie.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3118299B7A00C6DACF /* bnormandie.png */; };
+		E33FBC4818299B7A00C6DACF /* bourgogne.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3218299B7A00C6DACF /* bourgogne.png */; };
+		E33FBC4918299B7A00C6DACF /* bretagne.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3318299B7A00C6DACF /* bretagne.png */; };
+		E33FBC4A18299B7A00C6DACF /* calais.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3418299B7A00C6DACF /* calais.png */; };
+		E33FBC4B18299B7A00C6DACF /* cardenne.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3518299B7A00C6DACF /* cardenne.png */; };
+		E33FBC4C18299B7A00C6DACF /* centre.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3618299B7A00C6DACF /* centre.png */; };
+		E33FBC4D18299B7A00C6DACF /* corse.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3718299B7A00C6DACF /* corse.png */; };
+		E33FBC4E18299B7A00C6DACF /* fcomte.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3818299B7A00C6DACF /* fcomte.png */; };
+		E33FBC4F18299B7A00C6DACF /* hnormandie.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3918299B7A00C6DACF /* hnormandie.png */; };
+		E33FBC5018299B7A00C6DACF /* ifrance.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3A18299B7A00C6DACF /* ifrance.png */; };
+		E33FBC5118299B7A00C6DACF /* languedoc.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3B18299B7A00C6DACF /* languedoc.png */; };
+		E33FBC5218299B7A00C6DACF /* limousin.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3C18299B7A00C6DACF /* limousin.png */; };
+		E33FBC5318299B7A00C6DACF /* lorraine.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3D18299B7A00C6DACF /* lorraine.png */; };
+		E33FBC5418299B7A00C6DACF /* mpyrenees.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3E18299B7A00C6DACF /* mpyrenees.png */; };
+		E33FBC5518299B7A00C6DACF /* picardie.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC3F18299B7A00C6DACF /* picardie.png */; };
+		E33FBC5618299B7A00C6DACF /* ploire.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC4018299B7A00C6DACF /* ploire.png */; };
+		E33FBC5718299B7A00C6DACF /* poitou.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC4118299B7A00C6DACF /* poitou.png */; };
+		E33FBC5818299B7A00C6DACF /* provence.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC4218299B7A00C6DACF /* provence.png */; };
+		E33FBC5918299B7A00C6DACF /* ralpes.png in Resources */ = {isa = PBXBuildFile; fileRef = E33FBC4318299B7A00C6DACF /* ralpes.png */; };
+		E37FD5F4181BC01000983EA6 /* VCMapaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E37FD5F3181BC01000983EA6 /* VCMapaViewController.m */; };
+		E37FD6261824445000983EA6 /* espana.png in Resources */ = {isa = PBXBuildFile; fileRef = E37FD6251824444F00983EA6 /* espana.png */; };
+		E37FD6281824445900983EA6 /* francia.png in Resources */ = {isa = PBXBuildFile; fileRef = E37FD6271824445800983EA6 /* francia.png */; };
+		E37FD62A1824446300983EA6 /* portugal.png in Resources */ = {isa = PBXBuildFile; fileRef = E37FD6291824446300983EA6 /* portugal.png */; };
+		E3A88F7818376FAF0058C19A /* VCFinJuegoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A88F7718376FAF0058C19A /* VCFinJuegoViewController.m */; };
+		E3A88FAF1840A5640058C19A /* aveiro.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88F9D1840A5640058C19A /* aveiro.png */; };
+		E3A88FB01840A5640058C19A /* beja.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88F9E1840A5640058C19A /* beja.png */; };
+		E3A88FB11840A5640058C19A /* braga.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88F9F1840A5640058C19A /* braga.png */; };
+		E3A88FB21840A5640058C19A /* braganza.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA01840A5640058C19A /* braganza.png */; };
+		E3A88FB31840A5640058C19A /* cbranco.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA11840A5640058C19A /* cbranco.png */; };
+		E3A88FB41840A5640058C19A /* coimbra.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA21840A5640058C19A /* coimbra.png */; };
+		E3A88FB51840A5640058C19A /* evora.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA31840A5640058C19A /* evora.png */; };
+		E3A88FB61840A5640058C19A /* faro.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA41840A5640058C19A /* faro.png */; };
+		E3A88FB71840A5640058C19A /* guarda.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA51840A5640058C19A /* guarda.png */; };
+		E3A88FB81840A5640058C19A /* leiria.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA61840A5640058C19A /* leiria.png */; };
+		E3A88FB91840A5640058C19A /* lisboa.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA71840A5640058C19A /* lisboa.png */; };
+		E3A88FBA1840A5640058C19A /* oporto.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA81840A5640058C19A /* oporto.png */; };
+		E3A88FBB1840A5640058C19A /* portalegre.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FA91840A5640058C19A /* portalegre.png */; };
+		E3A88FBC1840A5640058C19A /* santarem.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FAA1840A5640058C19A /* santarem.png */; };
+		E3A88FBD1840A5640058C19A /* setubal.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FAB1840A5640058C19A /* setubal.png */; };
+		E3A88FBE1840A5640058C19A /* vcastelo.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FAC1840A5640058C19A /* vcastelo.png */; };
+		E3A88FBF1840A5640058C19A /* viseu.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FAD1840A5640058C19A /* viseu.png */; };
+		E3A88FC01840A5640058C19A /* vreal.png in Resources */ = {isa = PBXBuildFile; fileRef = E3A88FAE1840A5640058C19A /* vreal.png */; };
+		E3A88FC31840A9010058C19A /* VCRankingLocalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3A88FC21840A9010058C19A /* VCRankingLocalViewController.m */; };
+		E3E6E54F1853200200A62237 /* VCRankingGlobalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3E6E54E1853200200A62237 /* VCRankingGlobalViewController.m */; };
+		E3F0474518094A14005AFE37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0474418094A14005AFE37 /* UIKit.framework */; };
+		E3F0474718094A14005AFE37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0474618094A14005AFE37 /* Foundation.framework */; };
+		E3F0474918094A14005AFE37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0474818094A14005AFE37 /* CoreGraphics.framework */; };
+		E3F0474F18094A14005AFE37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F0474D18094A14005AFE37 /* InfoPlist.strings */; };
+		E3F0475118094A14005AFE37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0475018094A14005AFE37 /* main.m */; };
+		E3F0475518094A14005AFE37 /* VCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0475418094A14005AFE37 /* VCAppDelegate.m */; };
+		E3F0475718094A14005AFE37 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F0475618094A14005AFE37 /* Default.png */; };
+		E3F0475918094A14005AFE37 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F0475818094A14005AFE37 /* Default@2x.png */; };
+		E3F0475B18094A14005AFE37 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3F0475A18094A14005AFE37 /* Default-568h@2x.png */; };
+		E3F0475E18094A14005AFE37 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3F0475C18094A14005AFE37 /* MainStoryboard.storyboard */; };
+		E3F0476118094A14005AFE37 /* VCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0476018094A14005AFE37 /* VCViewController.m */; };
+		E3F0476918094A14005AFE37 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0476818094A14005AFE37 /* SenTestingKit.framework */; };
+		E3F0476A18094A14005AFE37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0474418094A14005AFE37 /* UIKit.framework */; };
+		E3F0476B18094A14005AFE37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3F0474618094A14005AFE37 /* Foundation.framework */; };
+		E3F0477318094A14005AFE37 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3F0477118094A14005AFE37 /* InfoPlist.strings */; };
+		E3F0477618094A14005AFE37 /* Geographic_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0477518094A14005AFE37 /* Geographic_AppTests.m */; };
+		E3F0478118094B73005AFE37 /* VCRegion.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0478018094B72005AFE37 /* VCRegion.m */; };
+		E3F0478418094CF1005AFE37 /* VCPais.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0478318094CF1005AFE37 /* VCPais.m */; };
+		E3F0478718094E0D005AFE37 /* VCPlaneta.m in Sources */ = {isa = PBXBuildFile; fileRef = E3F0478618094E0D005AFE37 /* VCPlaneta.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E3F0476C18094A14005AFE37 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E3F0473918094A14005AFE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E3F0474018094A14005AFE37;
+			remoteInfo = "Geographic App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E308C892186E2E5E0077A42C /* andalucia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = andalucia.png; sourceTree = "<group>"; };
+		E308C893186E2E5E0077A42C /* aragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aragon.png; sourceTree = "<group>"; };
+		E308C894186E2E5E0077A42C /* asturias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = asturias.png; sourceTree = "<group>"; };
+		E308C895186E2E5E0077A42C /* cantabria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cantabria.png; sourceTree = "<group>"; };
+		E308C896186E2E5E0077A42C /* cataluna.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cataluna.png; sourceTree = "<group>"; };
+		E308C897186E2E5E0077A42C /* ceuta.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ceuta.png; sourceTree = "<group>"; };
+		E308C89C186E2E5E0077A42C /* galicia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = galicia.png; sourceTree = "<group>"; };
+		E308C89D186E2E5E0077A42C /* ibaleares.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ibaleares.png; sourceTree = "<group>"; };
+		E308C89E186E2E5E0077A42C /* icanarias.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icanarias.png; sourceTree = "<group>"; };
+		E308C89F186E2E5E0077A42C /* madrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = madrid.png; sourceTree = "<group>"; };
+		E308C8A0186E2E5E0077A42C /* mellila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mellila.png; sourceTree = "<group>"; };
+		E308C8A2186E2E5E0077A42C /* navarra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navarra.png; sourceTree = "<group>"; };
+		E308C8A4186E2E5E0077A42C /* rioja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rioja.png; sourceTree = "<group>"; };
+		E308C8B8186E30F30077A42C /* cmancha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cmancha.png; sourceTree = "<group>"; };
+		E308C8BE186E31E60077A42C /* cvalenciana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cvalenciana.png; sourceTree = "<group>"; };
+		E308C8C0186E33720077A42C /* extremadura.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = extremadura.png; sourceTree = "<group>"; };
+		E308C8C2186E33810077A42C /* murcia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = murcia.png; sourceTree = "<group>"; };
+		E308C8C4186E372F0077A42C /* paisvasco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paisvasco.png; sourceTree = "<group>"; };
+		E308C8C6186E39040077A42C /* cleon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cleon.png; sourceTree = "<group>"; };
+		E324F0F818127B81007E12EB /* VCJugador.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCJugador.h; sourceTree = "<group>"; };
+		E324F0F918127B81007E12EB /* VCJugador.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCJugador.m; sourceTree = "<group>"; };
+		E324F0FB18127BDD007E12EB /* VCPuntuacion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPuntuacion.h; sourceTree = "<group>"; };
+		E324F0FC18127BDD007E12EB /* VCPuntuacion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPuntuacion.m; sourceTree = "<group>"; };
+		E324F0FE18127C89007E12EB /* VCRanking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRanking.h; sourceTree = "<group>"; };
+		E324F0FF18127C89007E12EB /* VCRanking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRanking.m; sourceTree = "<group>"; };
+		E324F10118128134007E12EB /* VCJuego.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCJuego.h; sourceTree = "<group>"; };
+		E324F10218128134007E12EB /* VCJuego.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCJuego.m; sourceTree = "<group>"; };
+		E324F10418128E10007E12EB /* datospaises.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = datospaises.xml; sourceTree = "<group>"; };
+		E325F1D9186ECE8600442D9F /* geoapp.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = geoapp.gif; sourceTree = "<group>"; };
+		E325F1DB186ED27300442D9F /* VCSplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCSplashViewController.h; sourceTree = "<group>"; };
+		E325F1DC186ED27300442D9F /* VCSplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCSplashViewController.m; sourceTree = "<group>"; };
+		E333107B182E416D003C0FC7 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		E33FBC2E18299B7A00C6DACF /* alsace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = alsace.png; sourceTree = "<group>"; };
+		E33FBC2F18299B7A00C6DACF /* aquitaine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aquitaine.png; sourceTree = "<group>"; };
+		E33FBC3018299B7A00C6DACF /* auvergne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = auvergne.png; sourceTree = "<group>"; };
+		E33FBC3118299B7A00C6DACF /* bnormandie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bnormandie.png; sourceTree = "<group>"; };
+		E33FBC3218299B7A00C6DACF /* bourgogne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bourgogne.png; sourceTree = "<group>"; };
+		E33FBC3318299B7A00C6DACF /* bretagne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bretagne.png; sourceTree = "<group>"; };
+		E33FBC3418299B7A00C6DACF /* calais.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calais.png; sourceTree = "<group>"; };
+		E33FBC3518299B7A00C6DACF /* cardenne.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cardenne.png; sourceTree = "<group>"; };
+		E33FBC3618299B7A00C6DACF /* centre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = centre.png; sourceTree = "<group>"; };
+		E33FBC3718299B7A00C6DACF /* corse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = corse.png; sourceTree = "<group>"; };
+		E33FBC3818299B7A00C6DACF /* fcomte.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fcomte.png; sourceTree = "<group>"; };
+		E33FBC3918299B7A00C6DACF /* hnormandie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hnormandie.png; sourceTree = "<group>"; };
+		E33FBC3A18299B7A00C6DACF /* ifrance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ifrance.png; sourceTree = "<group>"; };
+		E33FBC3B18299B7A00C6DACF /* languedoc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = languedoc.png; sourceTree = "<group>"; };
+		E33FBC3C18299B7A00C6DACF /* limousin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = limousin.png; sourceTree = "<group>"; };
+		E33FBC3D18299B7A00C6DACF /* lorraine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lorraine.png; sourceTree = "<group>"; };
+		E33FBC3E18299B7A00C6DACF /* mpyrenees.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mpyrenees.png; sourceTree = "<group>"; };
+		E33FBC3F18299B7A00C6DACF /* picardie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = picardie.png; sourceTree = "<group>"; };
+		E33FBC4018299B7A00C6DACF /* ploire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ploire.png; sourceTree = "<group>"; };
+		E33FBC4118299B7A00C6DACF /* poitou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = poitou.png; sourceTree = "<group>"; };
+		E33FBC4218299B7A00C6DACF /* provence.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = provence.png; sourceTree = "<group>"; };
+		E33FBC4318299B7A00C6DACF /* ralpes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ralpes.png; sourceTree = "<group>"; };
+		E37FD5F2181BC00F00983EA6 /* VCMapaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCMapaViewController.h; sourceTree = "<group>"; };
+		E37FD5F3181BC01000983EA6 /* VCMapaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCMapaViewController.m; sourceTree = "<group>"; };
+		E37FD6251824444F00983EA6 /* espana.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = espana.png; sourceTree = "<group>"; };
+		E37FD6271824445800983EA6 /* francia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = francia.png; sourceTree = "<group>"; };
+		E37FD6291824446300983EA6 /* portugal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portugal.png; sourceTree = "<group>"; };
+		E3A88F7618376FAF0058C19A /* VCFinJuegoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCFinJuegoViewController.h; sourceTree = "<group>"; };
+		E3A88F7718376FAF0058C19A /* VCFinJuegoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCFinJuegoViewController.m; sourceTree = "<group>"; };
+		E3A88F9D1840A5640058C19A /* aveiro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = aveiro.png; sourceTree = "<group>"; };
+		E3A88F9E1840A5640058C19A /* beja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = beja.png; sourceTree = "<group>"; };
+		E3A88F9F1840A5640058C19A /* braga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = braga.png; sourceTree = "<group>"; };
+		E3A88FA01840A5640058C19A /* braganza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = braganza.png; sourceTree = "<group>"; };
+		E3A88FA11840A5640058C19A /* cbranco.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbranco.png; sourceTree = "<group>"; };
+		E3A88FA21840A5640058C19A /* coimbra.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coimbra.png; sourceTree = "<group>"; };
+		E3A88FA31840A5640058C19A /* evora.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = evora.png; sourceTree = "<group>"; };
+		E3A88FA41840A5640058C19A /* faro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faro.png; sourceTree = "<group>"; };
+		E3A88FA51840A5640058C19A /* guarda.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = guarda.png; sourceTree = "<group>"; };
+		E3A88FA61840A5640058C19A /* leiria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leiria.png; sourceTree = "<group>"; };
+		E3A88FA71840A5640058C19A /* lisboa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lisboa.png; sourceTree = "<group>"; };
+		E3A88FA81840A5640058C19A /* oporto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oporto.png; sourceTree = "<group>"; };
+		E3A88FA91840A5640058C19A /* portalegre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = portalegre.png; sourceTree = "<group>"; };
+		E3A88FAA1840A5640058C19A /* santarem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = santarem.png; sourceTree = "<group>"; };
+		E3A88FAB1840A5640058C19A /* setubal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = setubal.png; sourceTree = "<group>"; };
+		E3A88FAC1840A5640058C19A /* vcastelo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vcastelo.png; sourceTree = "<group>"; };
+		E3A88FAD1840A5640058C19A /* viseu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = viseu.png; sourceTree = "<group>"; };
+		E3A88FAE1840A5640058C19A /* vreal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vreal.png; sourceTree = "<group>"; };
+		E3A88FC11840A9000058C19A /* VCRankingLocalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRankingLocalViewController.h; sourceTree = "<group>"; };
+		E3A88FC21840A9010058C19A /* VCRankingLocalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRankingLocalViewController.m; sourceTree = "<group>"; };
+		E3E6E54D1853200200A62237 /* VCRankingGlobalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRankingGlobalViewController.h; sourceTree = "<group>"; };
+		E3E6E54E1853200200A62237 /* VCRankingGlobalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRankingGlobalViewController.m; sourceTree = "<group>"; };
+		E3F0474118094A14005AFE37 /* Geographic App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Geographic App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F0474418094A14005AFE37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3F0474618094A14005AFE37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3F0474818094A14005AFE37 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3F0474C18094A14005AFE37 /* Geographic App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geographic App-Info.plist"; sourceTree = "<group>"; };
+		E3F0474E18094A14005AFE37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3F0475018094A14005AFE37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3F0475218094A14005AFE37 /* Geographic App-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Geographic App-Prefix.pch"; sourceTree = "<group>"; };
+		E3F0475318094A14005AFE37 /* VCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCAppDelegate.h; sourceTree = "<group>"; };
+		E3F0475418094A14005AFE37 /* VCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCAppDelegate.m; sourceTree = "<group>"; };
+		E3F0475618094A14005AFE37 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E3F0475818094A14005AFE37 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E3F0475A18094A14005AFE37 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E3F0475D18094A14005AFE37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		E3F0475F18094A14005AFE37 /* VCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VCViewController.h; sourceTree = "<group>"; };
+		E3F0476018094A14005AFE37 /* VCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VCViewController.m; sourceTree = "<group>"; };
+		E3F0476718094A14005AFE37 /* Geographic AppTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Geographic AppTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3F0476818094A14005AFE37 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		E3F0477018094A14005AFE37 /* Geographic AppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Geographic AppTests-Info.plist"; sourceTree = "<group>"; };
+		E3F0477218094A14005AFE37 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3F0477418094A14005AFE37 /* Geographic_AppTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Geographic_AppTests.h; sourceTree = "<group>"; };
+		E3F0477518094A14005AFE37 /* Geographic_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Geographic_AppTests.m; sourceTree = "<group>"; };
+		E3F0477F18094B72005AFE37 /* VCRegion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCRegion.h; sourceTree = "<group>"; };
+		E3F0478018094B72005AFE37 /* VCRegion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCRegion.m; sourceTree = "<group>"; };
+		E3F0478218094CF1005AFE37 /* VCPais.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPais.h; sourceTree = "<group>"; };
+		E3F0478318094CF1005AFE37 /* VCPais.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPais.m; sourceTree = "<group>"; };
+		E3F0478518094E0D005AFE37 /* VCPlaneta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VCPlaneta.h; sourceTree = "<group>"; };
+		E3F0478618094E0D005AFE37 /* VCPlaneta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VCPlaneta.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3F0473E18094A14005AFE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E333107C182E416E003C0FC7 /* libsqlite3.dylib in Frameworks */,
+				E3F0474518094A14005AFE37 /* UIKit.framework in Frameworks */,
+				E3F0474718094A14005AFE37 /* Foundation.framework in Frameworks */,
+				E3F0474918094A14005AFE37 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F0476318094A14005AFE37 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E325F1DE1878178B00442D9F /* libsqlite3.dylib in Frameworks */,
+				E3F0476918094A14005AFE37 /* SenTestingKit.framework in Frameworks */,
+				E3F0476A18094A14005AFE37 /* UIKit.framework in Frameworks */,
+				E3F0476B18094A14005AFE37 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3F0473818094A14005AFE37 = {
+			isa = PBXGroup;
+			children = (
+				E3F0474A18094A14005AFE37 /* Geographic App */,
+				E3F0476E18094A14005AFE37 /* Geographic AppTests */,
+				E3F0474318094A14005AFE37 /* Frameworks */,
+				E3F0474218094A14005AFE37 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3F0474218094A14005AFE37 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0474118094A14005AFE37 /* Geographic App.app */,
+				E3F0476718094A14005AFE37 /* Geographic AppTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3F0474318094A14005AFE37 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E333107B182E416D003C0FC7 /* libsqlite3.dylib */,
+				E3F0474418094A14005AFE37 /* UIKit.framework */,
+				E3F0474618094A14005AFE37 /* Foundation.framework */,
+				E3F0474818094A14005AFE37 /* CoreGraphics.framework */,
+				E3F0476818094A14005AFE37 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3F0474A18094A14005AFE37 /* Geographic App */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0475318094A14005AFE37 /* VCAppDelegate.h */,
+				E3F0475418094A14005AFE37 /* VCAppDelegate.m */,
+				E325F1DB186ED27300442D9F /* VCSplashViewController.h */,
+				E325F1DC186ED27300442D9F /* VCSplashViewController.m */,
+				E3F0475C18094A14005AFE37 /* MainStoryboard.storyboard */,
+				E3E6E54D1853200200A62237 /* VCRankingGlobalViewController.h */,
+				E3E6E54E1853200200A62237 /* VCRankingGlobalViewController.m */,
+				E3A88F7618376FAF0058C19A /* VCFinJuegoViewController.h */,
+				E3A88F7718376FAF0058C19A /* VCFinJuegoViewController.m */,
+				E3F0477F18094B72005AFE37 /* VCRegion.h */,
+				E3F0478018094B72005AFE37 /* VCRegion.m */,
+				E3F0478218094CF1005AFE37 /* VCPais.h */,
+				E3F0478318094CF1005AFE37 /* VCPais.m */,
+				E324F0F818127B81007E12EB /* VCJugador.h */,
+				E324F0F918127B81007E12EB /* VCJugador.m */,
+				E324F0FB18127BDD007E12EB /* VCPuntuacion.h */,
+				E324F0FC18127BDD007E12EB /* VCPuntuacion.m */,
+				E324F0FE18127C89007E12EB /* VCRanking.h */,
+				E324F0FF18127C89007E12EB /* VCRanking.m */,
+				E324F10118128134007E12EB /* VCJuego.h */,
+				E324F10218128134007E12EB /* VCJuego.m */,
+				E3F0478518094E0D005AFE37 /* VCPlaneta.h */,
+				E3F0478618094E0D005AFE37 /* VCPlaneta.m */,
+				E3F0475F18094A14005AFE37 /* VCViewController.h */,
+				E3F0476018094A14005AFE37 /* VCViewController.m */,
+				E3A88FC11840A9000058C19A /* VCRankingLocalViewController.h */,
+				E3A88FC21840A9010058C19A /* VCRankingLocalViewController.m */,
+				E37FD5F2181BC00F00983EA6 /* VCMapaViewController.h */,
+				E37FD5F3181BC01000983EA6 /* VCMapaViewController.m */,
+				E3F0474B18094A14005AFE37 /* Supporting Files */,
+			);
+			path = "Geographic App";
+			sourceTree = "<group>";
+		};
+		E3F0474B18094A14005AFE37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E325F1D9186ECE8600442D9F /* geoapp.gif */,
+				E3A88F9D1840A5640058C19A /* aveiro.png */,
+				E3A88F9E1840A5640058C19A /* beja.png */,
+				E3A88F9F1840A5640058C19A /* braga.png */,
+				E3A88FA01840A5640058C19A /* braganza.png */,
+				E3A88FA11840A5640058C19A /* cbranco.png */,
+				E3A88FA21840A5640058C19A /* coimbra.png */,
+				E3A88FA31840A5640058C19A /* evora.png */,
+				E3A88FA41840A5640058C19A /* faro.png */,
+				E3A88FA51840A5640058C19A /* guarda.png */,
+				E3A88FA61840A5640058C19A /* leiria.png */,
+				E3A88FA71840A5640058C19A /* lisboa.png */,
+				E3A88FA81840A5640058C19A /* oporto.png */,
+				E3A88FA91840A5640058C19A /* portalegre.png */,
+				E3A88FAA1840A5640058C19A /* santarem.png */,
+				E3A88FAB1840A5640058C19A /* setubal.png */,
+				E3A88FAC1840A5640058C19A /* vcastelo.png */,
+				E3A88FAD1840A5640058C19A /* viseu.png */,
+				E3A88FAE1840A5640058C19A /* vreal.png */,
+				E33FBC2E18299B7A00C6DACF /* alsace.png */,
+				E33FBC2F18299B7A00C6DACF /* aquitaine.png */,
+				E33FBC3018299B7A00C6DACF /* auvergne.png */,
+				E33FBC3118299B7A00C6DACF /* bnormandie.png */,
+				E33FBC3218299B7A00C6DACF /* bourgogne.png */,
+				E33FBC3318299B7A00C6DACF /* bretagne.png */,
+				E33FBC3418299B7A00C6DACF /* calais.png */,
+				E33FBC3518299B7A00C6DACF /* cardenne.png */,
+				E33FBC3618299B7A00C6DACF /* centre.png */,
+				E33FBC3718299B7A00C6DACF /* corse.png */,
+				E33FBC3818299B7A00C6DACF /* fcomte.png */,
+				E33FBC3918299B7A00C6DACF /* hnormandie.png */,
+				E33FBC3A18299B7A00C6DACF /* ifrance.png */,
+				E33FBC3B18299B7A00C6DACF /* languedoc.png */,
+				E33FBC3C18299B7A00C6DACF /* limousin.png */,
+				E33FBC3D18299B7A00C6DACF /* lorraine.png */,
+				E33FBC3E18299B7A00C6DACF /* mpyrenees.png */,
+				E33FBC3F18299B7A00C6DACF /* picardie.png */,
+				E33FBC4018299B7A00C6DACF /* ploire.png */,
+				E33FBC4118299B7A00C6DACF /* poitou.png */,
+				E33FBC4218299B7A00C6DACF /* provence.png */,
+				E33FBC4318299B7A00C6DACF /* ralpes.png */,
+				E308C892186E2E5E0077A42C /* andalucia.png */,
+				E308C893186E2E5E0077A42C /* aragon.png */,
+				E308C894186E2E5E0077A42C /* asturias.png */,
+				E308C895186E2E5E0077A42C /* cantabria.png */,
+				E308C896186E2E5E0077A42C /* cataluna.png */,
+				E308C897186E2E5E0077A42C /* ceuta.png */,
+				E308C8C6186E39040077A42C /* cleon.png */,
+				E308C8B8186E30F30077A42C /* cmancha.png */,
+				E308C8BE186E31E60077A42C /* cvalenciana.png */,
+				E308C8C0186E33720077A42C /* extremadura.png */,
+				E308C89C186E2E5E0077A42C /* galicia.png */,
+				E308C89D186E2E5E0077A42C /* ibaleares.png */,
+				E308C89E186E2E5E0077A42C /* icanarias.png */,
+				E308C89F186E2E5E0077A42C /* madrid.png */,
+				E308C8A0186E2E5E0077A42C /* mellila.png */,
+				E308C8C2186E33810077A42C /* murcia.png */,
+				E308C8A2186E2E5E0077A42C /* navarra.png */,
+				E308C8C4186E372F0077A42C /* paisvasco.png */,
+				E308C8A4186E2E5E0077A42C /* rioja.png */,
+				E37FD6291824446300983EA6 /* portugal.png */,
+				E37FD6271824445800983EA6 /* francia.png */,
+				E37FD6251824444F00983EA6 /* espana.png */,
+				E3F0474C18094A14005AFE37 /* Geographic App-Info.plist */,
+				E3F0474D18094A14005AFE37 /* InfoPlist.strings */,
+				E3F0475018094A14005AFE37 /* main.m */,
+				E324F10418128E10007E12EB /* datospaises.xml */,
+				E3F0475218094A14005AFE37 /* Geographic App-Prefix.pch */,
+				E3F0475618094A14005AFE37 /* Default.png */,
+				E3F0475818094A14005AFE37 /* Default@2x.png */,
+				E3F0475A18094A14005AFE37 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3F0476E18094A14005AFE37 /* Geographic AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0477418094A14005AFE37 /* Geographic_AppTests.h */,
+				E3F0477518094A14005AFE37 /* Geographic_AppTests.m */,
+				E3F0476F18094A14005AFE37 /* Supporting Files */,
+			);
+			path = "Geographic AppTests";
+			sourceTree = "<group>";
+		};
+		E3F0476F18094A14005AFE37 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3F0477018094A14005AFE37 /* Geographic AppTests-Info.plist */,
+				E3F0477118094A14005AFE37 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3F0474018094A14005AFE37 /* Geographic App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F0477918094A14005AFE37 /* Build configuration list for PBXNativeTarget "Geographic App" */;
+			buildPhases = (
+				E3F0473D18094A14005AFE37 /* Sources */,
+				E3F0473E18094A14005AFE37 /* Frameworks */,
+				E3F0473F18094A14005AFE37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Geographic App";
+			productName = "Geographic App";
+			productReference = E3F0474118094A14005AFE37 /* Geographic App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E3F0476618094A14005AFE37 /* Geographic AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3F0477C18094A14005AFE37 /* Build configuration list for PBXNativeTarget "Geographic AppTests" */;
+			buildPhases = (
+				E3F0476218094A14005AFE37 /* Sources */,
+				E3F0476318094A14005AFE37 /* Frameworks */,
+				E3F0476418094A14005AFE37 /* Resources */,
+				E3F0476518094A14005AFE37 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E3F0476D18094A14005AFE37 /* PBXTargetDependency */,
+			);
+			name = "Geographic AppTests";
+			productName = "Geographic AppTests";
+			productReference = E3F0476718094A14005AFE37 /* Geographic AppTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3F0473918094A14005AFE37 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = VC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Verónica Cordobés";
+				TargetAttributes = {
+					E3F0474018094A14005AFE37 = {
+						DevelopmentTeam = RVLW94ZY2B;
+					};
+				};
+			};
+			buildConfigurationList = E3F0473C18094A14005AFE37 /* Build configuration list for PBXProject "Geographic App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3F0473818094A14005AFE37;
+			productRefGroup = E3F0474218094A14005AFE37 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3F0474018094A14005AFE37 /* Geographic App */,
+				E3F0476618094A14005AFE37 /* Geographic AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3F0473F18094A14005AFE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0474F18094A14005AFE37 /* InfoPlist.strings in Resources */,
+				E3F0475718094A14005AFE37 /* Default.png in Resources */,
+				E3F0475918094A14005AFE37 /* Default@2x.png in Resources */,
+				E3F0475B18094A14005AFE37 /* Default-568h@2x.png in Resources */,
+				E3F0475E18094A14005AFE37 /* MainStoryboard.storyboard in Resources */,
+				E324F10518128E10007E12EB /* datospaises.xml in Resources */,
+				E37FD6261824445000983EA6 /* espana.png in Resources */,
+				E37FD6281824445900983EA6 /* francia.png in Resources */,
+				E37FD62A1824446300983EA6 /* portugal.png in Resources */,
+				E33FBC4418299B7A00C6DACF /* alsace.png in Resources */,
+				E33FBC4518299B7A00C6DACF /* aquitaine.png in Resources */,
+				E33FBC4618299B7A00C6DACF /* auvergne.png in Resources */,
+				E33FBC4718299B7A00C6DACF /* bnormandie.png in Resources */,
+				E33FBC4818299B7A00C6DACF /* bourgogne.png in Resources */,
+				E33FBC4918299B7A00C6DACF /* bretagne.png in Resources */,
+				E33FBC4A18299B7A00C6DACF /* calais.png in Resources */,
+				E33FBC4B18299B7A00C6DACF /* cardenne.png in Resources */,
+				E33FBC4C18299B7A00C6DACF /* centre.png in Resources */,
+				E33FBC4D18299B7A00C6DACF /* corse.png in Resources */,
+				E33FBC4E18299B7A00C6DACF /* fcomte.png in Resources */,
+				E33FBC4F18299B7A00C6DACF /* hnormandie.png in Resources */,
+				E33FBC5018299B7A00C6DACF /* ifrance.png in Resources */,
+				E33FBC5118299B7A00C6DACF /* languedoc.png in Resources */,
+				E33FBC5218299B7A00C6DACF /* limousin.png in Resources */,
+				E33FBC5318299B7A00C6DACF /* lorraine.png in Resources */,
+				E33FBC5418299B7A00C6DACF /* mpyrenees.png in Resources */,
+				E33FBC5518299B7A00C6DACF /* picardie.png in Resources */,
+				E33FBC5618299B7A00C6DACF /* ploire.png in Resources */,
+				E33FBC5718299B7A00C6DACF /* poitou.png in Resources */,
+				E33FBC5818299B7A00C6DACF /* provence.png in Resources */,
+				E33FBC5918299B7A00C6DACF /* ralpes.png in Resources */,
+				E3A88FAF1840A5640058C19A /* aveiro.png in Resources */,
+				E3A88FB01840A5640058C19A /* beja.png in Resources */,
+				E3A88FB11840A5640058C19A /* braga.png in Resources */,
+				E3A88FB21840A5640058C19A /* braganza.png in Resources */,
+				E3A88FB31840A5640058C19A /* cbranco.png in Resources */,
+				E3A88FB41840A5640058C19A /* coimbra.png in Resources */,
+				E3A88FB51840A5640058C19A /* evora.png in Resources */,
+				E3A88FB61840A5640058C19A /* faro.png in Resources */,
+				E3A88FB71840A5640058C19A /* guarda.png in Resources */,
+				E3A88FB81840A5640058C19A /* leiria.png in Resources */,
+				E3A88FB91840A5640058C19A /* lisboa.png in Resources */,
+				E3A88FBA1840A5640058C19A /* oporto.png in Resources */,
+				E3A88FBB1840A5640058C19A /* portalegre.png in Resources */,
+				E3A88FBC1840A5640058C19A /* santarem.png in Resources */,
+				E3A88FBD1840A5640058C19A /* setubal.png in Resources */,
+				E3A88FBE1840A5640058C19A /* vcastelo.png in Resources */,
+				E3A88FBF1840A5640058C19A /* viseu.png in Resources */,
+				E3A88FC01840A5640058C19A /* vreal.png in Resources */,
+				E308C8A5186E2E5E0077A42C /* andalucia.png in Resources */,
+				E308C8A6186E2E5E0077A42C /* aragon.png in Resources */,
+				E308C8A7186E2E5E0077A42C /* asturias.png in Resources */,
+				E308C8A8186E2E5E0077A42C /* cantabria.png in Resources */,
+				E308C8A9186E2E5E0077A42C /* cataluna.png in Resources */,
+				E308C8AA186E2E5E0077A42C /* ceuta.png in Resources */,
+				E308C8AF186E2E5E0077A42C /* galicia.png in Resources */,
+				E308C8B0186E2E5E0077A42C /* ibaleares.png in Resources */,
+				E308C8B1186E2E5E0077A42C /* icanarias.png in Resources */,
+				E308C8B2186E2E5E0077A42C /* madrid.png in Resources */,
+				E308C8B3186E2E5E0077A42C /* mellila.png in Resources */,
+				E308C8B5186E2E5E0077A42C /* navarra.png in Resources */,
+				E308C8B7186E2E5E0077A42C /* rioja.png in Resources */,
+				E308C8BA186E30F30077A42C /* cmancha.png in Resources */,
+				E308C8BF186E31E60077A42C /* cvalenciana.png in Resources */,
+				E308C8C1186E33720077A42C /* extremadura.png in Resources */,
+				E308C8C3186E33810077A42C /* murcia.png in Resources */,
+				E308C8C5186E372F0077A42C /* paisvasco.png in Resources */,
+				E308C8C7186E39040077A42C /* cleon.png in Resources */,
+				E325F1DA186ECE8600442D9F /* geoapp.gif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F0476418094A14005AFE37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0477318094A14005AFE37 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E3F0476518094A14005AFE37 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3F0473D18094A14005AFE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0475118094A14005AFE37 /* main.m in Sources */,
+				E3F0475518094A14005AFE37 /* VCAppDelegate.m in Sources */,
+				E3F0476118094A14005AFE37 /* VCViewController.m in Sources */,
+				E3F0478118094B73005AFE37 /* VCRegion.m in Sources */,
+				E3F0478418094CF1005AFE37 /* VCPais.m in Sources */,
+				E3F0478718094E0D005AFE37 /* VCPlaneta.m in Sources */,
+				E324F0FA18127B81007E12EB /* VCJugador.m in Sources */,
+				E324F0FD18127BDD007E12EB /* VCPuntuacion.m in Sources */,
+				E324F10018127C8A007E12EB /* VCRanking.m in Sources */,
+				E324F10318128134007E12EB /* VCJuego.m in Sources */,
+				E37FD5F4181BC01000983EA6 /* VCMapaViewController.m in Sources */,
+				E3A88F7818376FAF0058C19A /* VCFinJuegoViewController.m in Sources */,
+				E3A88FC31840A9010058C19A /* VCRankingLocalViewController.m in Sources */,
+				E3E6E54F1853200200A62237 /* VCRankingGlobalViewController.m in Sources */,
+				E325F1DD186ED27300442D9F /* VCSplashViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E3F0476218094A14005AFE37 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3F0477618094A14005AFE37 /* Geographic_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E3F0476D18094A14005AFE37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E3F0474018094A14005AFE37 /* Geographic App */;
+			targetProxy = E3F0476C18094A14005AFE37 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E3F0474D18094A14005AFE37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3F0474E18094A14005AFE37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3F0475C18094A14005AFE37 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3F0475D18094A14005AFE37 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		E3F0477118094A14005AFE37 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3F0477218094A14005AFE37 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3F0477718094A14005AFE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		E3F0477818094A14005AFE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3F0477A18094A14005AFE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geographic App/Geographic App-Prefix.pch";
+				INFOPLIST_FILE = "Geographic App/Geographic App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3F0477B18094A14005AFE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geographic App/Geographic App-Prefix.pch";
+				INFOPLIST_FILE = "Geographic App/Geographic App-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E3F0477D18094A14005AFE37 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Geographic App.app/Geographic App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geographic App/Geographic App-Prefix.pch";
+				INFOPLIST_FILE = "Geographic AppTests/Geographic AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		E3F0477E18094A14005AFE37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Geographic App.app/Geographic App";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Geographic App/Geographic App-Prefix.pch";
+				INFOPLIST_FILE = "Geographic AppTests/Geographic AppTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3F0473C18094A14005AFE37 /* Build configuration list for PBXProject "Geographic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F0477718094A14005AFE37 /* Debug */,
+				E3F0477818094A14005AFE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F0477918094A14005AFE37 /* Build configuration list for PBXNativeTarget "Geographic App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F0477A18094A14005AFE37 /* Debug */,
+				E3F0477B18094A14005AFE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3F0477C18094A14005AFE37 /* Build configuration list for PBXNativeTarget "Geographic AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3F0477D18094A14005AFE37 /* Debug */,
+				E3F0477E18094A14005AFE37 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3F0473918094A14005AFE37 /* Project object */;
+}
